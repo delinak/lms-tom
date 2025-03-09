@@ -1,12 +1,11 @@
 import React from 'react'
 import {Button} from "./ui/button";
+import DarkMode from "./darkModeToggle";
 
 function Header() {
   return (
     <div>
-        <Button>
-            Click Me
-        </Button>
+        <DarkMode/>
     </div>
   )
 }
